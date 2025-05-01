@@ -9,6 +9,7 @@ function App() {
     setTimeout(() => {
        setLogo(false)
     }, 5000);
+    
   },[])
   return (
     <div className="App">
