@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Voice from './Components/Voice';
+import Logo from './Components/Logo';
+import { useEffect, useState } from 'react';
 function App() {
+  const [logo,setLogo] = useState(true);
+  useEffect(()=>{
+    setTimeout(() => {
+       setLogo(false)
+    }, 5000);
+  },[])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {logo ? <Logo/> : <Voice/>}
     </div>
   );
 }
