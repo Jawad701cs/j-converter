@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Jconverter
+# Enter text and click listen button before click button select voice in which you want to listen text.
+# Select a language in which you want to speak then click Start Speak button then start speaking 
+# Click Copy button then you text is automatically copied.
+>>>>>>> 7041603e71f9c3a8aa1d715c741b948dc6c24d88
