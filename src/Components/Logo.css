@@ -1,5 +1,5 @@
 p{
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
     margin-top: 150px;
     transition: transform 3s;
@@ -12,4 +12,3 @@ p{
     50% {color: greenyellow;}
     100% {color: green;}
 }
-
